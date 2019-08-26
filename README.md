@@ -23,8 +23,6 @@ For this question, I first wrote a method that eliminates the "." in the version
     5 - Locality of reference, data should almost always be available from the closest region
     6 - Flexible Schema
     7 - Cache can expire 
-As a hint, we are not looking for quantity, but rather quality, maintainability, scalability, testability and a code that you can be proud of. 
-When submitting your code add the necessary documentation to explain your overall design and missing functionalities.  Do it to the best of your knowledge.
 
 For question C, I was quite stumped as I have never dealt with caches before, let alone implementing one. However, with alot of Googling and using my understanding of data structures,
 I was able to implement a basic LRU-Cache which returns an error message if it takes more than a certain amount of time for the insert or retrieve operations to complete. This code is written
